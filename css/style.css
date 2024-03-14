@@ -1,0 +1,75 @@
+header>h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+main {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    border: 0px;
+    border-radius: 5px;
+    height: 32px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+/* FORM STYLE */
+.main-container {
+    display: flex;
+    border: 0px;
+}
+
+.container-form>div{
+    background-color: aquamarine;
+    padding: 16px;
+}
+
+.paragraph-remark {
+    text-align: justify;
+    padding-right: 8px;
+}
+
+.input {
+    height: 25px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+#count-button {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#reset-button {
+    border: 200px;
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 480px) {
+    .main-container{
+        flex-direction: column;
+    }
+}
+
+/* RESULT STYLE */
+.form, .result {
+    border: 1px solid;
+    width: 100%;
+    padding: 12px;
+}
+
+.container-result {
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 2px;
+    padding-bottom: 24px;
+}
+
+#download-button {
+    background-color: cornflowerblue;
+    color: white;
+}
+
